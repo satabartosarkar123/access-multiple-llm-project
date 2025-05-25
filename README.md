@@ -78,7 +78,7 @@ local_model_url = "http://localhost:11434"  # URL for local model (if used)
 To execute a basic test using your selected provider:
 
 ```bash
-python test_file.py
+python test_run.py
 ```
 
 ---

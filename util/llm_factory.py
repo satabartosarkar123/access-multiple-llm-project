@@ -1,5 +1,9 @@
 import os
+import sys
 from dotenv import load_dotenv
+
+root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(root_dir)
 
 from langchain_mistralai import ChatMistralAI
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -12,7 +16,7 @@ from langchain.prompts import (
     HumanMessagePromptTemplate,
 )
 
-import constants
+import util.constants as constants
 
 class LLMFactory:
 

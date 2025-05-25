@@ -1,5 +1,5 @@
-from llm_factory import LLMFactory
-from system_prompt import prompt_generate_summary
+from util.llm_factory import LLMFactory
+from util.system_prompt import prompt_generate_summary
 def generate_summary(text):
     """
     Generates a summary of the given text using the LLM.
