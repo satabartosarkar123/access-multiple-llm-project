@@ -1,4 +1,6 @@
 from util.llm_factory import LLMFactory
+import os
+
 from util.system_prompt import prompt_generate_summary
 def generate_summary(text):
     """
@@ -16,7 +18,7 @@ def generate_summary(text):
 
 
 if __name__ == "__main__":
-    Question = "What is the impact of climate change in global trade?"
+    Question = "Canyou tell me about shadowwriting, a method, probably, discord used to transfer its humungus database"
     summary = generate_summary(Question)
     print("\nGenerated Summary:")
     print(summary)

@@ -31,7 +31,6 @@ class LLMFactory:
         model_mapping = {
             "mistral": constants.mistral_llm,
             "gemini": constants.gemini_llm,
-            "openai": constants.openai_llm,
         }
         try:
             return model_mapping[env_name]
