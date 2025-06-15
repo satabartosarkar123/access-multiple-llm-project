@@ -58,9 +58,9 @@ Create a `.env` file in the root directory with the following structure:
 ```ini
 llm_provider = "mistral"  # Options: "mistral", "gemini", "openai"
 
-mistral_api_key = ""      # Your Mistral API key (optional)
+mistral_api_key = "tzqaTSxAwwmX56pYDni1m2ECqoMHQ2fB"      # Your Mistral API key (optional)
 
-gemini_api_key = ""       # Your Gemini API key (optional)
+gemini_api_key = "AIzaSyDqes4aSHXqRP1DvGS-YOEStn9CB_biWjY"       # Your Gemini API key (optional)
 
 openai_api_key = ""       # Your OpenAI API key (optional)
 
